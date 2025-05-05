@@ -49,7 +49,6 @@ def unet(pretrained_weights=None, input_size=(256, 256, 1)):
     conv9 = Conv2D(2, 3, activation='relu', padding='same', kernel_initializer='he_normal')(conv9)
     conv10 = Conv2D(1, 1, activation='sigmoid')(conv9)
 
-    # Përdor 'inputs' dhe 'outputs' në vend të 'input' dhe 'output'
     model = Model(inputs=inputs, outputs=conv10)
 
     model.compile(optimizer=Adam(lr=1e-4), loss='binary_crossentropy', metrics=['accuracy'])
