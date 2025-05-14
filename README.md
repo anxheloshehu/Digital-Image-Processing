@@ -16,3 +16,4 @@ librarit e perdorura ne pjesen me te madhe te ketij materiali jane:
    
 Gjithashtru gjate zhvillimit te temave te ndryshme eshte shfaqur shpesh edhe domosdoshmeria e perdorimit te librarive te tjera si 'fft2' etj.
 ##
+##
